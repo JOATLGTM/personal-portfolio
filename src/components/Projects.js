@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import remixProject from '../assets/img/remix-project.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -11,34 +12,40 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Remix Expense Project",
+      description: "An Expense list with CRUD abilities using Remix.js",
+      imgUrl: remixProject,
+      urlLink: 'https://github.com/JOATLGTM/RemixProject'
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg2,
+      urlLink: '/'
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
+      urlLink: '/'
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg1,
+      urlLink: '/'
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg2,
+      urlLink: '/'
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
+      urlLink: '/'
     },
   ];
 
