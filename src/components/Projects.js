@@ -15,7 +15,7 @@ export const Projects = () => {
       title: "Remix Expense Project",
       description: "An Expense list with CRUD abilities using Remix.js",
       imgUrl: remixProject,
-      urlLink: 'https://github.com/JOATLGTM/RemixProject'
+      urlLink: 'https://remix-project-silk.vercel.app/'
     },
     {
       title: "Business Startup",
