@@ -57,6 +57,10 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Percentage graph" />
+                  <h5>Vue.js</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Percentage graph" />
                   <h5>AWS</h5>
                 </div>
                 <div className="item">
